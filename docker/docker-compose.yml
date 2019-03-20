@@ -1,0 +1,9 @@
+version: '2'
+services:
+  context-hierarchy-demo:
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../target/demo-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/ROOT.war
+    build:
+      context: .
