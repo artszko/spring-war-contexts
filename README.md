@@ -1,5 +1,7 @@
 # spring-war-contexts
 
+Issue repository. More at: https://stackoverflow.com/questions/55259383/spring-boot-tries-to-run-an-embedded-tomcat-when-deployed-as-traditional-war
+
 Build the project
 ```
 mvn clean install
